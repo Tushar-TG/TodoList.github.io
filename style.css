@@ -1,7 +1,3 @@
-
-
-
-
 @media all and (max-width: 1299px){
     html{
         zoom: 50%;
@@ -14,13 +10,8 @@
         padding-bottom: 50px;
         grid-template-columns: repeat(2,1fr);
         row-gap: 50px;
-        column-gap: 30px;
-        
-        
-        
-        
+        column-gap: 30px;        
     }
-
 
     .header{
         margin-left: 150px;
@@ -30,7 +21,7 @@
         display: inline;
         margin-right: 10px;
     }
-
+    
     .header2{
         display: inline;
         color:skyblue;
@@ -38,14 +29,12 @@
     }
 
     .conbtn{
-
         display: block;
         margin-left: 60%;
         margin-bottom: 100px;
     }
 
     .addbtn{
-    
         display: inline-flex;
         margin-top: 50px;
         padding-left: 20px;
@@ -59,7 +48,6 @@
 
     .addbtntext{
         display:inline-flex;
-        
         margin-left:20px;
         font-size: 40px;
         color: black;
@@ -73,17 +61,14 @@
         border-radius: 5%;
         background-color: wheat;
         overflow: hidden;
-    
     }
 
     .item-head{
-        
         padding-bottom: 20px;
         border-bottom: solid black 1px;
         color: blue;
         font-size: 50px;
         margin-bottom: 10px;
-    
     }
 
     .chkbox{
@@ -91,13 +76,10 @@
         height: 30px;
         border-radius: 50%;
         margin-right: 20px;
-        
     }
     
     .chkbox-val{
-        
         font-size: 40px;
-        
     }
 
 }
@@ -115,9 +97,7 @@
         grid-template-columns: repeat(3, 1fr);
         row-gap: 50px;
         column-gap: 30px;
-        
     }
-
 
     .header{
         margin-left: 150px;
@@ -135,14 +115,12 @@
     }
 
     .conbtn{
-
         display: block;
         margin-left: 70%;
         margin-bottom: 100px;
     }
 
     .addbtn{
-    
         display: inline-flex;
         margin-top: 50px;
         padding-left: 20px;
@@ -156,7 +134,6 @@
 
     .addbtntext{
         display:inline-flex;
-        
         margin-left:20px;
         font-size: 40px;
         color: black;
@@ -170,7 +147,6 @@
         border-radius: 5%;
         background-color: wheat;
         overflow: hidden;
-    
     }
 
     .item-head{
@@ -179,7 +155,6 @@
         color: blue;
         font-size: 50px;
         margin-bottom: 10px;
-    
     }
 
     .chkbox{
@@ -187,13 +162,10 @@
         height: 30px;
         border-radius: 50%;
         margin-right: 20px;
-        
     }
     
     .chkbox-val{
-        
-        font-size: 40px;
-        
+         font-size: 40px;
     }
 }
 
@@ -219,18 +191,15 @@
         padding: 0px 50px 20px 50px;
         row-gap: 20px;
         column-gap: 10px;
-
     }
 
     .conbtn{
-
         display: block;
         margin-left: 45%;
         margin-bottom: 30px;
     }
 
     .addbtn{
-    
         display: inline-flex;
         margin-top: 50px;
         padding-left: 20px;
@@ -244,7 +213,6 @@
 
     .addbtntext{
         display:none;
-        
         margin-left:20px;
         font-size: 20px;
         color: black;
@@ -267,7 +235,6 @@
         color: blue;
         font-size: 50px;
         margin-bottom: 10px;
-    
     }
 
     .chkbox{
@@ -275,46 +242,31 @@
         height: 30px;
         border-radius: 50%;
         margin-right: 20px;
-        
     }
     
     .chkbox-val{
-        
         font-size: 40px;
-        
     }
 
 }
 
-
-
 .box{
     background-color: whitesmoke;
-    
 }
-
 
 .addbtn:hover{
     cursor: pointer;
     background-color: aqua;
 }
 
-
-
-
-
-
 .t1:hover{
     box-shadow: 10px 15px lightgray;
     cursor: pointer;
 }
 
-
-
 .item-checkbox{
     display: block;
 }
-
 
 .chkbox:checked~.chkbox-val{
     text-decoration: line-through;
