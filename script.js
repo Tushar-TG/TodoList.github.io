@@ -1,7 +1,4 @@
-
-
 function addTask(){
-
     const divv=document.createElement('div');
     divv.classList.add('t1');
     const div1=document.createElement('div');
@@ -24,11 +21,6 @@ function addTask(){
         it3.textContent=prompt("Enter Task");
         it.appendChild(it2);
         it.appendChild(it3);
-        divv.appendChild(it);
-        
-    });
-
-
-
-    
+        divv.appendChild(it); 
+    });    
 }
